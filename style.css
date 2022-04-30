@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+field {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+row {
+    display: flex;
+    flex-direction: row;
+}
+
+piece {
+    font-size: 70px;
+    align-self: center;
+}
+
+.fen-input {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
